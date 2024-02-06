@@ -15,5 +15,4 @@ def about(username):
 
 @app.route("/login")
 def login():
-    db = {"users": ["toshava", "komal"]}
-    return render_template("index.html", db=db)
+    return render_template("index.html")
